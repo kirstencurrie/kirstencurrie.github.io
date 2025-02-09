@@ -5,29 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-  .profile-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.profile-container img {
-  margin-bottom: 10px;
-}
-.social-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.social-icons a {
-  margin: 0 10px;
-  color: #333;
-  font-size: 24px;
-}
-.social-icons a:hover {
-  color: #007bff;
-}
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    align-items: center;
+  }
+  .social-icons a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 24px;
+  }
+  .social-icons a:hover {
+    color: #007bff;
+  }
 </style>
+
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
@@ -38,23 +31,28 @@
     {% include head-custom.html %}
   </head>
   <body>
-    <div class="profile-container">
-  {% if site.logo %}
-    <img src="{{site.logo | relative_url}}" alt="Logo" />
+    <div class="wrapper">
+      <header>
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+
+        {% if site.logo %}
+          <img src="{{site.logo | relative_url}}" alt="Logo" />
+        {% endif %}
+
+        <div class="social-icons">
+  {% if site.github_username %}
+    <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-github"></i>
+    </a>
   {% endif %}
-  <div class="social-icons">
-    {% if site.github_username %}
-      <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-github"></i>
-      </a>
-    {% endif %}
-    {% if site.linkedin_username %}
-      <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-linkedin"></i>
-      </a>
-    {% endif %}
-  </div>
+  {% if site.linkedin_username %}
+    <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-linkedin"></i>
+    </a>
+  {% endif %}
 </div>
+
+
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.github.is_project_page %}
