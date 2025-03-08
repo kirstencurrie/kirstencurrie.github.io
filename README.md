@@ -22,6 +22,8 @@
 $40,000 in savings.
 
 ## Projects
+<a href="https://kirstencurrie.github.io/assets/img/Data Portfolio_Kirsten Currie.pdf" target="_blank">PDF Portfolio</a>
+
 - [Cary, NC Real Estate Analysis](project1.md)
 - [Instacart Basket Analysis](project2.md)
 
