@@ -9,7 +9,7 @@
 - B.S., Apparel & Textile Design | University of Idaho
 
 ## Work Experience
-[Resume]
+<a href="https://kirstencurrie.github.io/assets/img/Currie_Kirsten_Resume.pdf" target="_blank">Resume</a>
 
 **Manager Golf Apparel Materials @ Adidas, Carlsbad, CA | (_June 2022 - Present_)**  
 - Drive innovative Twistweave™ & Twistknit™ fabric developments using proprietary technology for Men's ULT365+ range, creating lightweight, adaptive golf polos & pants, contributing to an overall 66.7% GIM.
