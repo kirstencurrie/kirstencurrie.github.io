@@ -6,25 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
   /* Navigation Bar */
-  .navbar {
+ .navbar {
+    padding-bottom: 10px; /* Adds space below the navigation bar */
+  }
+
+  body {
+    margin-top: 20px; /* Adds space between the navbar and content */
+  }
+  
+ .navbar {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center; /* Vertically center items */
+    padding: 10px 20px; /* Add padding around navbar */
+    background-color: #f8f9fa; /* Faint grey background */
     border-bottom: 1px solid #ddd; /* Divider line */
     position: sticky;
     top: 0;
     z-index: 1000;
   }
 
-  .navbar-left {
-    font-weight: bold;
-    color: #333; /* Slightly darker font */
   }
 
-  .navbar-right {
+ .navbar-left {
+    margin-right: 30px; /* Space between "Kirsten's Homepage" and nav links */
+    font-weight: bold;
+    color: #333;
+  }
+
+   .navbar-right {
     display: flex;
-    gap: 20px; /* Space between navigation links */
+    gap: 20px; /* Space between links */
   }
 
   .nav-link {
@@ -33,13 +45,9 @@
     font-size: 16px;
   }
 
-  .nav-link.bold {
+   .nav-link.bold {
     font-weight: bold;
     color: #333; /* Slightly darker for homepage link */
-  }
-
-  .nav-link:hover {
-    text-decoration: underline;
   }
 
   img[alt="Logo"] {
