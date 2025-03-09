@@ -23,13 +23,16 @@ With millions of data insights at hand, you can imagine the challenge of being a
 
 With the help of data aggregation (calculating average, min, max, etc) and column flag creation (creating new data variables that consolidated age groups, customer loyalty, shoppers by time of day, etc), capturing a sense of which products customers were drawn to became much easier, and a narrative was much simpler to form.
 
-![Distribution of shoppers by time of day in custom created customer profile types](assets/img/ic_shopping-times.png)
-
-
 ![Screenshot of Jupyter notebook showing creation of customer flags](assets/img/ic_customer-flags.png)
 
 
+![Distribution of shoppers by time of day in custom created customer profile types](assets/img/ic_shopping-times.png)
+
+
 ![Pie chart of customer age group distrobution](assets/img/ic_age-distro.png)
+
+
+![Bar char showing breakdown of shoppers by parent age group](assets/img/ic_parent-ages.png)
 
 
 ## Conclusion
