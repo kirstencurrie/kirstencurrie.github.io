@@ -42,6 +42,6 @@ What property features drive property values? Is it acreage? Proximity to school
 
 ### [Instacart Basket Analysis](project2.md)
 
-Customer segmentation is crucial in better understanding purchasing behaviors and how to anticipate customer demand. This study evaluates different ways of grouping Instacart customer profiles to uncover interesting trends and unlock different marketing or ad campaign potentials. For example, have you considered customers adding to their carts at three in the morning? Meet Insomniac Shoppers. Read more about how aggregation techniques in Python can help unlock hidden customer segmentations.
+Customer segmentation is crucial in better understanding purchasing behaviors and how to anticipate customer demand. This study evaluates different ways of grouping Instacart customer profiles to uncover interesting trends and unlock different marketing or ad campaign potentials. For example, have you considered the buying habits of 3am customers? Meet Insomniac Shoppers. Read more about how aggregation techniques in Python can help unlock hidden customer segmentations.
 
 
