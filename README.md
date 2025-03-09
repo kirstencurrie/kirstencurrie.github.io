@@ -2,6 +2,8 @@
 
 #### Technical Skills: Python, SQL, Tableau, Excel
 
+<br>
+
 ## About
 
 Hi, I'm Kirsten. I'm a data analyst with a background in apparel material development, having worked for industry leaders like Adidas and Nordstrom. During my career, I saw firsthand how **critical data is in making smart business decisions**—whether it’s optimizing supply chains, segmenting customers, or validating products. That realization inspired me to pivot into data analytics, combining my industry expertise with technical skills to help businesses uncover insights and drive innovation.
@@ -10,14 +12,19 @@ Hi, I'm Kirsten. I'm a data analyst with a background in apparel material develo
 
 If you're curious about how data can transform business strategy or want to see some of my work, check out some of my latest projects below. I’d love to connect and help uncover the hidden gems in your data!
 
+<br>
+
 ## Education
 - Certificate of Data Analytics | CareerFoundry (_2025_)								       		
 - B.S., Apparel & Textile Design | University of Idaho
+
+<br>
 
 ## Work Experience
 
 ### <a href="https://kirstencurrie.github.io/assets/img/Currie_Kirsten_Resume.pdf" target="_blank">Resume</a>
 
+<br>
 
 ## Projects
 
