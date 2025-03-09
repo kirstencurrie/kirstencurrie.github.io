@@ -4,9 +4,9 @@ title: Cary,  NC Real Estate Analysis
 ---
 # Cary, NC Real Estate Analysis
 
-[Tableau Presentation Link](https://public.tableau.com/app/profile/kirsten.currie/viz/CaryNC_PropertyValueAnalysis/CaryProperties?publish=yes)
+### [Tableau Presentation Link](https://public.tableau.com/app/profile/kirsten.currie/viz/CaryNC_PropertyValueAnalysis/CaryProperties?publish=yes)
 
-[Github Repository](https://github.com/kirstencurrie/cf_cary-real-estate)
+### [Github Repository](https://github.com/kirstencurrie/cf_cary-real-estate)
 
 ## Intro
 
