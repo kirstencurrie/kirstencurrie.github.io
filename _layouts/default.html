@@ -4,36 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <style>
       img[alt="Logo"] {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 10px; 
-  }
-  .social-icons {
-    display: flex;
-    justify-content: center;
-    margin-top: 0px;
-    padding: 0 20px;
-  }
-  .social-icons a {
-    margin: 0 5px;
-    color: #333;
-    font-size: 20px;
-  }
-  .social-icons a:hover {
-    color: #007bff;
-  }
-</style>
-
-
-{% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    {% include head-custom.html %}
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px; 
+      }
+      .contact-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 20px 0;
+      }
+      .contact-list li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      .contact-list i {
+        width: 20px;
+        margin-right: 10px;
+        text-align: center;
+      }
+      .contact-list a {
+        color: #333;
+        text-decoration: none;
+      }
+      .contact-list a:hover {
+        color: #007bff;
+      }
+    </style>
+    <!-- ... (keep the rest of the head content) ... -->
   </head>
   <body>
     <div class="wrapper">
@@ -44,32 +45,19 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <div class="social-icons">
-  {% if site.github_username %}
-    <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">
-      <i class="fab fa-github"></i>
-    </a>
-  {% endif %}
-  {% if site.linkedin_username %}
-    <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener noreferrer">
-      <i class="fab fa-linkedin"></i>
-    </a>
-  {% endif %}
-</div>
-
-
         <p>{{ site.description | default: site.github.project_tagline }}</p>
+
+        <ul class="contact-list">
+          <li><i class="fas fa-map-marker-alt"></i> San Diego, CA</li>
+          <li><a href="https://github.com/{{ site.github_username }}"><i class="fab fa-github"></i> GitHub</a></li>
+          <li><a href="https://linkedin.com/in/{{ site.linkedin_username }}"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+          <li><a href="mailto:kirstenlynncurrie@gmail.com"><i class="fas fa-envelope"></i> Email</a></li>
+        </ul>
 
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
 
-        {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        <p class="view"><a href="mailto:kirstenlynncurrie@gmail.com">Send me an email!</a></p>
-        {% endif %}
-
-        
         {% if site.show_downloads %}
         <ul class="downloads">
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
@@ -78,6 +66,8 @@
         </ul>
         {% endif %}
       </header>
+    
+
       <section>
 
       {{ content }}
