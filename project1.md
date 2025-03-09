@@ -22,10 +22,9 @@ value, etc were provided.
 The most useful information was land classification (residential under 10 acres, commercial gas station, recreational golf course, apartments, etc) which helped create larger property category groupings (residential, commercial, etc).
 
 
-<figure>
-  <img src="assets/img/cary_map.png" alt="Interactive Tableau layer map that shows distribution of Cary, NC property types">
-  <figcaption>FIG. A: Interactive Tableau layer map that shows distribution of Cary, NC property types.</figcaption>
-</figure>
+![Interactive Tableau layer map that shows distribution of Cary, NC property types](assets/img/cary_map.png)
+***FIG. A:***  *Interactive Tableau layer map that shows distribution of Cary, NC property types.*
+
 
 <br>
 <br>
@@ -39,14 +38,14 @@ The Cary Real Estate dataset contains more than just residential properties--som
 By digging in a bit further, it revealed interesting facts, such as the building with the highest value being the airport or discovering the oldest recorded historical property.
 
 ![Interactive tableau map of Cary, NC showing different layers of property types](assets/img/cary_oldest.png)
-*FIG. B: Exploratory data analysis led to the discovery of “outlier” values such as the Raleigh-Durham Intl.
+***FIG. B:***  *Exploratory data analysis led to the discovery of “outlier” values such as the Raleigh-Durham Intl.
 Airport (it had the highest building value).*
 
 Proper review of outliers can reveal important information and indicates that grouping into property categories will help fine-tune the analysis and
 eliminate the need to cut out relevent information.
 
 ![Histogram of two family residential homes](assets/img/cary_histo.png)
-*FIG. C: Left image shows histogram of building values across the entire dataset; the unusual distribution
+***FIG. C:***  *Left image shows histogram of building values across the entire dataset; the unusual distribution
 indicates outlier values. Image on the right is the same plot, however narrowing into the “2 Family Residential”
 property type, revealing much more informative data information.*
 
@@ -59,7 +58,7 @@ From initial correlation matrix testing, the following hypothesis was developed:
 *The larger a property's acreage or building square footage, the higher the property value.*
 
 ![Confusion matrix of various property values](assets/img/cary_confusion.png)
-*FIG. D: Acreage variable was not included in this particular correlation matrix, but land value and total
+***FIG. D:***  *Acreage variable was not included in this particular correlation matrix, but land value and total
 building square footage seemed to have stronger potential correlations with the most recent total sale value
 as well as land or building value, which is why the initial hypothesis was made.*
 
@@ -70,7 +69,7 @@ as well as land or building value, which is why the initial hypothesis was made.
 After performing linear regression on the Residential property acreage versus estimated property value and looking at regression scores (R2 value of only 6%), the data indicated that the initial hypothesis was weak and showed property acreage did not have a direct correlated relationship with property value.
 
 ![Linear regression analysis of property value versus land acreage quantity](assets/img/cary_linear.png)
-*FIG. E: Number of acres (across Residential properties) versus the estimated property value (a variable derived from land and
+***FIG. E:***  *Number of acres (across Residential properties) versus the estimated property value (a variable derived from land and
 building values provided in the dataset), only had about a 6% potential correlation in the linear regression model.*
 
 <br>
@@ -80,7 +79,7 @@ building values provided in the dataset), only had about a 6% potential correlat
 Since linear regression indicated no distinct direct, linear relationships between variables, a k-means cluster machine learning analysis was applied to the entire dataset (incuding all property class types) to see if there were any “hidden” relationships not initially detected. Exploration of the “property age” variable showed a possible multi-variate relationship between property age & price.
 
 ![Clustering of property value and acreage of deed versus clustering of property value and property age](assets/img/cary_knearest.png)
-*FIG. F: K-Means clustering performed on property features versus property value. Left image shows no clear clusters with the property acreage and estimated property value. Right image shows more distinct clusters by age of property compared to the most recent total property sale value.*
+***FIG. F:***  *K-Means clustering performed on property features versus property value. Left image shows no clear clusters with the property acreage and estimated property value. Right image shows more distinct clusters by age of property compared to the most recent total property sale value.*
 
 <br>
 
