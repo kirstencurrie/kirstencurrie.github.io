@@ -98,3 +98,11 @@ Property age could be further investigated as well--particularly the time period
 
 ![Bar chart comparing property age groupings (dervied from k-means cluster analysis) against total sale value, building value, and land value](assets/img/cary_clusters.png)
 ***FIG. G:***  *Bar chart comparing property age groupings (dervied from k-means cluster analysis) against total sale value, building value, and land value. Data reveals older properties have potential to be valued less than newer properties.*
+
+<br>
+
+---
+
+<br>
+
+### [See Next Project](project2.md)
