@@ -26,4 +26,3 @@ $40,000 in savings.
 
 - [Cary, NC Real Estate Analysis](project1.md)
 - [Instacart Basket Analysis](project2.md)
-- [Rockbuster Video Rental](project3.md)
