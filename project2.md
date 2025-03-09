@@ -31,11 +31,17 @@ With the help of data aggregation (calculating average, min, max, etc) and colum
 ![Screenshot of Jupyter notebook showing creation of customer flags](assets/img/ic_customer-flags.png)
 ***FIG. B:***  *Screenshot of a Jupyter Notebook script detaling the creation of age group by customer loyalty crosstabs*
 
+<br>
+
 ![Distribution of shoppers by time of day in custom created customer profile types](assets/img/ic_shopping-times.png)
 ***FIG. C:***  *Here shoppers are arranged to groups by time of day they shop; though a small portion of the populous, Insomniac shoppers still must be accounted for.*
 
+<br>
+
 ![Pie chart of customer age group distrobution](assets/img/ic_age-distro.png)
 ***FIG. D:***  *Customer ages were grouped into broader categories by creating new data variable columns in Python*
+
+<br>
 
 ![Bar char showing breakdown of shoppers by parent age group](assets/img/ic_parent-ages.png)
 ***FIG. E:***  *Older parents surpass the other parent age groups the customer pool in terms of customer loyalty*
