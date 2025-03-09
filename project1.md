@@ -103,6 +103,4 @@ Property age could be further investigated as well--particularly the time period
 
 ---
 
-<br>
-
 ### [See Next Project](project2.md)
