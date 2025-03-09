@@ -16,6 +16,7 @@ Leveraging Python using Jupyter Lab Notebooks, the Instacart data was cleaned, w
 
 
 ![Frequency of purchases made by age group](assets/img/ic_age-income.png)
+*FIG. A: A frequency chart illustrates which age groups spend the most money; a clear increase is seen at the age 40 mark*
 
 ## Data Aggregation
 
@@ -24,16 +25,16 @@ With millions of data insights at hand, you can imagine the challenge of being a
 With the help of data aggregation (calculating average, min, max, etc) and column flag creation (creating new data variables that consolidated age groups, customer loyalty, shoppers by time of day, etc), capturing a sense of which products customers were drawn to became much easier, and a narrative was much simpler to form.
 
 ![Screenshot of Jupyter notebook showing creation of customer flags](assets/img/ic_customer-flags.png)
-
+*FIG. B: Screenshot of a Jupyter Notebook script detaling the creation of age group by customer loyalty crosstabs*
 
 ![Distribution of shoppers by time of day in custom created customer profile types](assets/img/ic_shopping-times.png)
-
+*FIG. C: Here shoppers are arranged to groups by time of day they shop; though a small portion of the populous, Insomniac shoppers still must be accounted for.*
 
 ![Pie chart of customer age group distrobution](assets/img/ic_age-distro.png)
-
+*FIG. D: Customer ages were grouped into broader categories by creating new data variable columns in Python*
 
 ![Bar char showing breakdown of shoppers by parent age group](assets/img/ic_parent-ages.png)
-
+*FIG. E: Older parents surpass the other parent age groups the customer pool in terms of customer loyalty*
 
 ## Conclusion
 
@@ -42,4 +43,4 @@ The ability to create groups and join data within Python provides an infinite po
 Further studies could provide analysis into regional sales and how exactly timeliness and customer profile types could impact sales there.
 
 ![Grouped bar chart comparing customer loyalty shopping habits by product type](assets/img/ic_customer-segments.png)
-
+*FIG. F: Customers are divided into loyalty segments (New, Regular, and Loyal) then categorized by their shopping preferences. Produce is a clear winner.*
