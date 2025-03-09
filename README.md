@@ -28,17 +28,22 @@ $40,000 in savings.
 <tr>
 <td width="50%">
   
-- [Cary, NC Real Estate Analysis](project1.md)
-  ![Interactive Tableau map of property types in Raleigh, NC](assets/img/cary_map.png)
-  What property features drive property values? Is it acreage? Proximity to schools? Property age? With exploratory data analysis and machine learning techniques such as linear regression and clustering, this study dives into publicly available data on Cary, North Carolina property type features and values. These initial learnings could be leveraged by Real Estate investors or first time home buyers to build a better understanding of where to locate well positioned properties in terms of future growth of the city as well as where potential investment gems might be found.
+
+![Interactive Tableau map of property types in Raleigh, NC](assets/img/cary_map.png)
+
+[Cary, NC Real Estate Analysis](project1.md)
+  
+What property features drive property values? Is it acreage? Proximity to schools? Property age? With exploratory data analysis and machine learning techniques such as linear regression and clustering, this study dives into publicly available data on Cary, North Carolina property type features and values. These initial learnings could be leveraged by Real Estate investors or first time home buyers to build a better understanding of where to locate well positioned properties in terms of future growth of the city as well as where potential investment gems might be found.
 
 </td>
 <td width="50%">
 
 
-- [Instacart Basket Analysis](project2.md)
-  ![Image of fruit on the shelf at grocery store](assets/img/ic_groceries.jpg)
-  Customer segmentation is crucial in better understanding purchasing behaviors and how to anticipate customer demand. This study evaluates different ways of grouping Instacart customer profiles to uncover interesting trends and unlock different marketing or ad campaign potentials. For example, have you considered customers adding to their carts at three in the morning? Meet Insomniac Shoppers. Read more about how aggregation techniques in Python can help unlock hidden custermer segmentations.
+![Image of fruit on the shelf at grocery store](assets/img/ic_groceries.jpg)
+
+[Instacart Basket Analysis](project2.md)
+
+Customer segmentation is crucial in better understanding purchasing behaviors and how to anticipate customer demand. This study evaluates different ways of grouping Instacart customer profiles to uncover interesting trends and unlock different marketing or ad campaign potentials. For example, have you considered customers adding to their carts at three in the morning? Meet Insomniac Shoppers. Read more about how aggregation techniques in Python can help unlock hidden custermer segmentations.
 
 </td>
 </tr>
