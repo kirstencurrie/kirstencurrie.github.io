@@ -7,98 +7,102 @@
 <style>
 /* Navigation Bar */
 .navbar {
-display: flex;
-justify-content: left; /* Center-align the container */
-align-items: left;
-padding: 10px 20px;
-position: fixed;
-top: 0;
-left: 0;
-right: 0;
-width: 100%; /* Full width */
-background-color: #FFFFFF; /* White background */
-border-bottom: 1px solid #ddd; /* Divider line */
-z-index: 1000;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #ddd;
+  z-index: 1000;
 }
-.navbar .container {
-display: flex;
-justify-content: space-between; /* Space between left and right sections */
-align-items: center; /* Vertically align items */
-max-width: 960px; /* Adjust to match your profile section's width */
-width: 100%; /* Ensure it spans full width within max-width */
+.navbar-content {
+  display: flex;
+  align-items: center;
+  max-width: 960px;
+  width: 100%;
 }
 body {
-  padding-top: 60px; /* Adjust based on your navbar height */
+  padding-top: 60px;
 }
-  /* Adjust the wrapper to account for the fixed navbar */
 .wrapper {
-  padding-top: 20px; /* Add some space below the navbar */
+  padding-top: 20px;
 }
 .navbar-left {
-  margin-right: 30px; /* Space between "Kirsten's Homepage" and nav links */
+  margin-right: 30px;
 }
 .navbar-right {
   display: flex;
-  gap: 20px; /* Space between links */
+  gap: 20px;
 }
 .nav-link {
   text-decoration: none;
-  color: #007bff; /* Blue links */
+  color: #333;
+  transition: color 0.3s ease;
+}
+.nav-link:hover {
+  color: #666;
 }
 .nav-link.bold {
   font-weight: bold;
+  color: #222;
 }
 
-  img[alt="Logo"] {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 10px; 
-  }
+img[alt="Logo"] {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px; 
+}
 
-  .profile-header {
-    text-align: left;
-    margin-left: 20px; /* Ensures left alignment for all content */
-  }
+.profile-header {
+  text-align: left;
+  margin-left: 20px;
+}
 
-  .profile-header h1 {
-    font-size: 24px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-  }
+.profile-header h1 {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
 
-  .profile-header p {
-    font-size: 18px;
-    text-transform: lowercase;
-    margin-bottom: 20px; /* Adds spacing below the title */
-  }
+.profile-header p {
+  font-size: 18px;
+  text-transform: lowercase;
+  margin-bottom: 20px;
+}
 
-  .contact-info {
-    text-align: left;
-    margin-left: 20px; /* Matches the alignment of the profile header */
-    padding: 0; /* Removes extra padding */
-  }
+.contact-info {
+  text-align: left;
+  margin-left: 20px;
+  padding: 0;
+}
 
-  .contact-info li {
-    list-style: none;
-    margin-bottom: 10px;
-    font-size: 16px;
-    display: flex;
-    align-items: center; /* Aligns icons with text vertically */
-  }
+.contact-info li {
+  list-style: none;
+  margin-bottom: 10px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
 
-  .contact-info i {
-    margin-right: 10px; /* Adds space between icon and text */
-    color: #333;
-  }
+.contact-info i {
+  margin-right: 10px;
+  color: #333;
+}
 
-  .contact-info a {
-    text-decoration: none;
-    color: #007bff;
-  }
+.contact-info a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
 
-  .contact-info a:hover {
-    text-decoration: underline;
-  }
+.contact-info a:hover {
+  color: #666;
+}
 </style>
 
     {% seo %}
@@ -113,14 +117,10 @@ body {
       <!-- Navigation Bar -->
 <nav class="navbar">
   <div class="navbar-content">
-    <div class="navbar-left">
-      <a href="/kirstencurrie.github.io/index.html" class="nav-link bold">Home</a>
-    </div>
-    <div class="navbar-right">
-      <a href="/kirstencurrie.github.io/index.html#about" class="nav-link">About</a>
-      <a href="/kirstencurrie.github.io/index.html#work-experience" class="nav-link">Resume</a>
-      <a href="/kirstencurrie.github.io/index.html#projects" class="nav-link">Projects</a>
-    </div>
+    <a href="/kirstencurrie.github.io/index.html" class="nav-link bold">Home</a>
+    <a href="/kirstencurrie.github.io/index.html#about" class="nav-link">About</a>
+    <a href="/kirstencurrie.github.io/index.html#work-experience" class="nav-link">Resume</a>
+    <a href="/kirstencurrie.github.io/index.html#projects" class="nav-link">Projects</a>
   </div>
 </nav>
     <div class="wrapper">
