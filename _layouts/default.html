@@ -4,106 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-      /* Navigation Bar */
-      .navbar {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        padding: 10px 20px;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        background-color: #FFFFFF;
-        border-bottom: 1px solid #ddd;
-        z-index: 1000;
-      }
+<style>
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #ddd;
+  z-index: 1000;
+}
+.navbar-content {
+  display: flex;
+  align-items: center;
+  max-width: 960px;
+  width: 100%;
+}
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+  padding: 0 15px; /* Add padding to the left and right of each link */
+}
+.nav-link:hover {
+  color: #666;
+}
+.nav-link.bold {
+  font-weight: bold;
+  color: #222;
+}
+</style>
 
-      .navbar-content {
-        display: flex;
-        align-items: center;
-        max-width: 960px; /* Matches profile section width */
-        margin-left: 20px; /* Aligns with profile image and contact info */
-      }
-
-      .nav-link {
-        text-decoration: none;
-        color: #333; /* Grey links */
-        transition: color 0.3s ease;
-        padding: 0 15px; /* Add padding between links */
-      }
-
-      .nav-link:hover {
-        color: #666; /* Slightly darker grey on hover */
-      }
-
-      .nav-link.bold {
-        font-weight: bold;
-        color: #222; /* Slightly darker grey for Home link */
-      }
-
-      body {
-        padding-top: 60px; /* Adjust based on navbar height */
-      }
-
-      .wrapper {
-        padding-top: 20px; /* Add some space below the navbar */
-      }
-
-      img[alt="Logo"] {
-        display: block;
-        margin: 0 auto;
-        margin-bottom: 10px; 
-      }
-
-      .profile-header {
-        text-align: left;
-        margin-left: 20px; /* Ensures left alignment for all content */
-      }
-
-      .profile-header h1 {
-        font-size: 24px;
-        margin-top: 10px;
-        margin-bottom: 5px;
-      }
-
-      .profile-header p {
-        font-size: 18px;
-        text-transform: lowercase;
-        margin-bottom: 20px; /* Adds spacing below the title */
-      }
-
-      .contact-info {
-        text-align: left;
-        margin-left: 20px; /* Matches the alignment of the profile header */
-        padding: 0; /* Removes extra padding */
-        list-style: none; /* Removes bullet points from the list */
-      }
-
-      .contact-info li {
-        list-style: none; /* Ensures no bullet points for list items */
-        margin-bottom: 10px;
-        font-size: 16px;
-        display: flex;
-        align-items: center; /* Aligns icons with text vertically */
-      }
-
-      .contact-info i {
-        margin-right: 10px; /* Adds space between icon and text */
-        color: #333;
-      }
-
-      .contact-info a {
-        text-decoration: none;
-        color: #333; /* Grey links for contact info */
-      }
-
-      .contact-info a:hover {
-        color: #666; /* Slightly darker grey on hover */
-      }
-    </style>
 
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
@@ -113,88 +50,84 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     {% include head-custom.html %}
   </head>
-  
   <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-      <div class="navbar-content">
-          <a href="/kirstencurrie.github.io/index.html" class="nav-link bold">Home</a>
-          <a href="/kirstencurrie.github.io/index.html#about" class="nav-link">About</a>
-          <a href="/kirstencurrie.github.io/index.html#work-experience" class="nav-link">Resume</a>
-          <a href="/kirstencurrie.github.io/index.html#projects" class="nav-link">Projects</a>
-      </div>
-    </nav>
-
+      <!-- Navigation Bar -->
+<nav class="navbar">
+  <div class="navbar-content">
+    <a href="/kirstencurrie.github.io/index.html" class="nav-link bold">Home</a>
+    <a href="/kirstencurrie.github.io/index.html#about" class="nav-link">About</a>
+    <a href="/kirstencurrie.github.io/index.html#work-experience" class="nav-link">Resume</a>
+    <a href="/kirstencurrie.github.io/index.html#projects" class="nav-link">Projects</a>
+  </div>
+</nav>
     <div class="wrapper">
-      <!-- Header Section -->
       <header>
+        <!-- Name and Profile Image -->
        {% if site.logo %}
-         <img src="{{site.logo | relative_url}}" alt="Logo" />
-         <h1 style="font-size: 24px; margin-top: 10px;">Kirsten Currie</h1>
-         <p style="font-size: 18px; text-transform: Titlecase;">Data Analyst</p>
-       {% endif %}
+      <img src="{{site.logo | relative_url}}" alt="Logo" />
+      <h1 style="font-size: 24px; margin-top: 10px;">Kirsten Currie</h1>
+      <p style="font-size: 18px; text-transform: Titlecase;">Data Analyst</p>
+      {% endif %}
 
-       <!-- Contact Info Section -->
-       <ul class="contact-info">
-         <!-- Location -->
-         <li>
-           <i class="fas fa-map-marker-alt"></i> Raleigh, NC
-         </li>
 
-         <!-- GitHub -->
-         {% if site.github_username %}
-         <li>
-           <i class="fab fa-github"></i> 
-           <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">GitHub</a>
-         </li>
-         {% endif %}
+        <!-- Contact Info Section -->
+        <ul class="contact-info">
+          <!-- Location -->
+          <li>
+            <i class="fas fa-map-marker-alt"></i> Raleigh, NC
+          </li>
+          <!-- GitHub -->
+          {% if site.github_username %}
+          <li>
+            <i class="fab fa-github"></i> 
+            <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </li>
+          {% endif %}
+          <!-- LinkedIn -->
+          {% if site.linkedin_username %}
+          <li>
+            <i class="fab fa-linkedin"></i> 
+            <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </li>
+          {% endif %}
+          <!-- Email -->
+          <li>
+            <i class="fas fa-envelope"></i> 
+            <a href="mailto:kirstenlynncurrie@gmail.com">Email</a>
+          </li>
+        </ul>
 
-         <!-- LinkedIn -->
-         {% if site.linkedin_username %}
-         <li>
-           <i class="fab fa-linkedin"></i> 
-           <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-         </li>
-         {% endif %}
+        <!-- Description -->
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-         <!-- Email -->
-         <li>
-           <i class="fas fa-envelope"></i> 
-           <a href="mailto:kirstenlynncurrie@gmail.com">Email</a>
-         </li>
-       </ul>
+        {% if site.github.is_project_page %}
+        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
+        {% endif %}
 
-       <!-- Description -->
-       <p>{{ site.description | default: site.github.project_tagline }}</p>
+        {% if site.show_downloads %}
+        <ul class="downloads">
+          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
+          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
+        </ul>
+        {% endif %}
+      </header>
 
-       {% if site.github.is_project_page %}
-       <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-       {% endif %}
+      <!-- Main Content Section -->
+      <section>
+        {{ content }}
+      </section>
 
-       {% if site.show_downloads %}
-       <ul class="downloads">
-         <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-         <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-         <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-       </ul>
-       {% endif %}
-     </header>
+      <!-- Footer -->
+      <footer>
+        {% if site.github.is_project_page %}
+        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
 
-     <!-- Main Content Section -->
-     {{ content }}
-
-     <!-- Footer -->
-     <footer>
-       {% if site.github.is_project_page %}
-       <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-       {% endif %}
-       <p><small>Hosted on GitHub Pages &mdash; Theme by 
-          <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-     </footer>
-
-   </div>
-
-   <!-- Scripts -->
-   <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
- </body>
+    <!-- Scripts -->
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
 </html>
