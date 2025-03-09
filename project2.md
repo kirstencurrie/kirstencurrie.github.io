@@ -53,14 +53,13 @@ With the help of data aggregation (calculating average, min, max, etc) and colum
 The ability to create groups and join data within Python provides an infinite possiblity for exploring relationships within the data. Insights from this study was able to highlight how categories like bulk food, pet products, and alcohol were struggling and require new marketing strategies to bring them back to life. Frequency checks showed stakeholders how timeliness matters and how weekends were essential for their consumer.
 
 
-<br>
-
----
-
-<br>
-
-### [See Next Project](project1.md)
 Further studies could provide analysis into regional sales and how exactly timeliness and customer profile types could impact sales there.
 
 ![Grouped bar chart comparing customer loyalty shopping habits by product type](assets/img/ic_customer-segments.png)
 ***FIG. F:***  *Customers are divided into loyalty segments (New, Regular, and Loyal) then categorized by their shopping preferences. Produce is a clear winner.*
+
+<br>
+
+---
+
+### [See Next Project](project1.md)
