@@ -8,16 +8,24 @@
   /* Navigation Bar */  
 .navbar {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center; /* Center-align the container */
   align-items: center;
   padding: 10px 20px;
   position: fixed;
   top: 0;
-  left: 0; /* Ensure it starts from the left edge */
-  right: 0; /* Ensure it extends to the right edge */
+  left: 0;
+  right: 0;
   width: 100%; /* Full width */
+  background-color: #f8f9fa; /* Faint grey background */
+  border-bottom: 1px solid #ddd; /* Divider line */
   z-index: 1000;
-  box-sizing: border-box; /* Include padding in width calculation */
+}
+  .navbar .container {
+  display: flex;
+  justify-content: space-between; /* Space between left and right sections */
+  align-items: center; /* Vertically align items */
+  max-width: 960px; /* Adjust to match your profile section's width */
+  width: 100%; /* Ensure it spans full width within max-width */
 }
 body {
   padding-top: 60px; /* Adjust based on your navbar height */
