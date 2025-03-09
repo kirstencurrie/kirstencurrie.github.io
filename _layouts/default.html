@@ -5,6 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+  /* Navigation Bar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa; /* Faint grey background */
+    border-bottom: 1px solid #ddd; /* Divider line */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .navbar-left {
+    font-weight: bold;
+    color: #333; /* Slightly darker font */
+  }
+
+  .navbar-right {
+    display: flex;
+    gap: 20px; /* Space between navigation links */
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: #007bff; /* Blue links */
+    font-size: 16px;
+  }
+
+  .nav-link.bold {
+    font-weight: bold;
+    color: #333; /* Slightly darker for homepage link */
+  }
+
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+
   img[alt="Logo"] {
     display: block;
     margin: 0 auto;
@@ -66,6 +104,18 @@
     {% include head-custom.html %}
   </head>
   <body>
+      <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="navbar-left">
+      <a href="#home" class="nav-link bold">Kirsten's Homepage</a>
+    </div>
+    <div class="navbar-right">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#resume" class="nav-link">Resume</a>
+      <a href="#projects" class="nav-link">Projects</a>
+    </div>
+  </nav>
+    
     <div class="wrapper">
       <header>
         <!-- Name and Profile Image -->
