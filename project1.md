@@ -42,6 +42,7 @@ By digging in a bit further, it revealed interesting facts, such as the building
 Airport (it had the highest building value).*
 
 <br>
+<br>
 
 Proper review of outliers can reveal important information and indicates that grouping into property categories will help fine-tune the analysis and
 eliminate the need to cut out relevent information.
@@ -96,4 +97,4 @@ Further analysis could be used to discover what features might help a home retai
 Property age could be further investigated as well--particularly the time period between when most recent sales took place versus property value. Data limitation could be that older properties had a longer time period between being sold and current date of analysis compared to newer properties, resulting in a potential recency bias with the change of property values over time.
 
 ![Bar chart comparing property age groupings (dervied from k-means cluster analysis) against total sale value, building value, and land value](assets/img/cary_clusters.png)
-*FIG. G: Bar chart comparing property age groupings (dervied from k-means cluster analysis) against total sale value, building value, and land value. Data reveals older properties have potential to be valued less than newer properties.*
+***FIG. G:***  *Bar chart comparing property age groupings (dervied from k-means cluster analysis) against total sale value, building value, and land value. Data reveals older properties have potential to be valued less than newer properties.*
