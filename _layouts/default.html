@@ -46,15 +46,18 @@
         <!-- Name and Profile Image -->
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
+       {% if site.logo %}
+      <img src="{{site.logo | relative_url}}" alt="Logo" />
+      <h1 style="font-size: 24px; margin-top: 10px;">Kirsten Currie</h1>
+      <p style="font-size: 18px; text-transform: lowercase;">data analyst</p>
+      {% endif %}
+
 
         <!-- Contact Info Section -->
         <ul class="contact-info">
           <!-- Location -->
           <li>
-            <i class="fas fa-map-marker-alt"></i> San Marcos, CA
+            <i class="fas fa-map-marker-alt"></i> Raleigh, NC
           </li>
           <!-- GitHub -->
           {% if site.github_username %}
