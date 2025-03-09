@@ -1,9 +1,3 @@
-# Data Analyst
-
-#### Technical Skills: Python, SQL, Tableau, Excel
-
-<br>
-
 ## About
 
 Hi, I'm Kirsten. I'm a data analyst with a background in apparel material development, having worked for industry leaders like Adidas and Nordstrom. During my career, I saw firsthand how **critical data is in making smart business decisions**—whether it’s optimizing supply chains, segmenting customers, or validating products. That realization inspired me to pivot into data analytics, combining my industry expertise with technical skills to help businesses uncover insights and drive innovation.
