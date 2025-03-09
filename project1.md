@@ -8,6 +8,8 @@ title: Cary,  NC Real Estate Analysis
 
 ### [Github Repository](https://github.com/kirstencurrie/cf_cary-real-estate)
 
+<br>
+
 ## Intro
 
 The following analysis was an opportunity to leverage more complex data analysis skills such as linear regression and k-means cluster analysis through machine learning.
@@ -25,6 +27,8 @@ The most useful information was land classification (residential under 10 acres,
   <figcaption>FIG. A: Interactive Tableau layer map that shows distribution of Cary, NC property types.</figcaption>
 </figure>
 
+<br>
+<br>
 
 ## Exploratory Analysis
 
@@ -46,6 +50,8 @@ eliminate the need to cut out relevent information.
 indicates outlier values. Image on the right is the same plot, however narrowing into the “2 Family Residential”
 property type, revealing much more informative data information.*
 
+<br>
+
 ## Hypothesis Development
 
 From initial correlation matrix testing, the following hypothesis was developed:
@@ -57,6 +63,8 @@ From initial correlation matrix testing, the following hypothesis was developed:
 building square footage seemed to have stronger potential correlations with the most recent total sale value
 as well as land or building value, which is why the initial hypothesis was made.*
 
+<br>
+
 ## Linear Regression
 
 After performing linear regression on the Residential property acreage versus estimated property value and looking at regression scores (R2 value of only 6%), the data indicated that the initial hypothesis was weak and showed property acreage did not have a direct correlated relationship with property value.
@@ -65,12 +73,16 @@ After performing linear regression on the Residential property acreage versus es
 *FIG. E: Number of acres (across Residential properties) versus the estimated property value (a variable derived from land and
 building values provided in the dataset), only had about a 6% potential correlation in the linear regression model.*
 
+<br>
+
 ## K-Nearest Neighbors Clustering
 
 Since linear regression indicated no distinct direct, linear relationships between variables, a k-means cluster machine learning analysis was applied to the entire dataset (incuding all property class types) to see if there were any “hidden” relationships not initially detected. Exploration of the “property age” variable showed a possible multi-variate relationship between property age & price.
 
 ![Clustering of property value and acreage of deed versus clustering of property value and property age](assets/img/cary_knearest.png)
 *FIG. F: K-Means clustering performed on property features versus property value. Left image shows no clear clusters with the property acreage and estimated property value. Right image shows more distinct clusters by age of property compared to the most recent total property sale value.*
+
+<br>
 
 ## Conclusion
 
