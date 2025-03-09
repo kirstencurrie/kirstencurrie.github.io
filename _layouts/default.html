@@ -8,9 +8,9 @@
   /* Navigation Bar */  
 .navbar {
   display: flex;
-  justify-content: left; /* Center-align the container */
-  align-items: left;
-  padding: 10px 20px;
+  justify-content: flex-start; /* Align items to the left */
+  align-items: center; /* Vertically center items */
+  padding: 10px 20px; /* Add padding around navbar */
   position: fixed;
   top: 0;
   left: 0;
@@ -20,12 +20,12 @@
   border-bottom: 1px solid #ddd; /* Divider line */
   z-index: 1000;
 }
-  .navbar .container {
+  .navbar-content {
   display: flex;
   justify-content: space-between; /* Space between left and right sections */
   align-items: center; /* Vertically align items */
-  max-width: 960px; /* Adjust to match your profile section's width */
-  width: 100%; /* Ensure it spans full width within max-width */
+  margin-left: 20px; /* Align dynamically with profile section */
+  width: calc(100% - 40px); /* Adjust width dynamically while keeping margins consistent */
 }
 body {
   padding-top: 60px; /* Adjust based on your navbar height */
@@ -34,27 +34,20 @@ body {
 .wrapper {
   padding-top: 20px; /* Add some space below the navbar */
 }
- .navbar-left {
-    margin-right: 30px; /* Space between "Kirsten's Homepage" and nav links */
-    font-weight: bold;
-    color: #333;
-  }
-
-   .navbar-right {
-    display: flex;
-    gap: 20px; /* Space between links */
-  }
-
-  .nav-link {
-    text-decoration: none;
-    color: #007bff; /* Blue links */
-    font-size: 16px;
-  }
-
-   .nav-link.bold {
-    font-weight: bold;
-    color: #333; /* Slightly darker for homepage link */
-  }
+.navbar-left {
+  margin-right: 30px; /* Space between "Kirsten's Homepage" and nav links */
+}
+.navbar-right {
+  display: flex;
+  gap: 20px; /* Space between links */
+}
+.nav-link {
+  text-decoration: none;
+  color: #007bff; /* Blue links */
+}
+.nav-link.bold {
+  font-weight: bold;
+}
 
   img[alt="Logo"] {
     display: block;
@@ -119,16 +112,17 @@ body {
   <body>
       <!-- Navigation Bar -->
 <nav class="navbar">
-  <div class="navbar-left">
-    <a href="/kirstencurrie.github.io/index.html" class="nav-link bold">Home</a>
-  </div>
-  <div class="navbar-right">
-    <a href="/kirstencurrie.github.io/index.html#about" class="nav-link">About</a>
-    <a href="/kirstencurrie.github.io/index.html#work-experience" class="nav-link">Resume</a>
-    <a href="/kirstencurrie.github.io/index.html#projects" class="nav-link">Projects</a>
+  <div class="navbar-content">
+    <div class="navbar-left">
+      <a href="/kirstencurrie.github.io/index.html" class="nav-link bold">Kirsten's Homepage</a>
+    </div>
+    <div class="navbar-right">
+      <a href="/kirstencurrie.github.io/index.html#about" class="nav-link">About</a>
+      <a href="/kirstencurrie.github.io/index.html#work-experience" class="nav-link">Resume</a>
+      <a href="/kirstencurrie.github.io/index.html#projects" class="nav-link">Projects</a>
+    </div>
   </div>
 </nav>
-
     <div class="wrapper">
       <header>
         <!-- Name and Profile Image -->
