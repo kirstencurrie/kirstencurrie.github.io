@@ -34,6 +34,8 @@ If you're curious about how data can transform business strategy or want to see 
 
 What property features drive property values? Is it acreage? Proximity to schools? Property age? With exploratory data analysis and machine learning techniques such as linear regression and clustering, this study dives into publicly available data on Cary, North Carolina property type features and values. These initial learnings could be leveraged by Real Estate investors or first-time home buyers to build a better understanding of where to locate well-positioned properties in terms of future growth of the city as well as where potential investment gems might be found.
 
+<br>
+
 ---
 
 ![Image of fruit on the shelf at grocery store](assets/img/ic_groceries.jpg)
