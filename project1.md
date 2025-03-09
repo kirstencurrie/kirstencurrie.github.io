@@ -58,7 +58,7 @@ property type, revealing much more informative data information.*
 
 From initial correlation matrix testing, the following hypothesis was developed:
 
-*The larger a property's acreage or building square footage, the higher the property value.*
+***The larger a property's acreage or building square footage, the higher the property value.***
 
 ![Confusion matrix of various property values](assets/img/cary_confusion.png)
 ***FIG. D:***  *Acreage variable was not included in this particular correlation matrix, but land value and total
