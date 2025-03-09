@@ -41,6 +41,8 @@ By digging in a bit further, it revealed interesting facts, such as the building
 ***FIG. B:***  *Exploratory data analysis led to the discovery of “outlier” values such as the Raleigh-Durham Intl.
 Airport (it had the highest building value).*
 
+<br>
+
 Proper review of outliers can reveal important information and indicates that grouping into property categories will help fine-tune the analysis and
 eliminate the need to cut out relevent information.
 
