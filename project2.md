@@ -4,7 +4,7 @@ title: Your Project Title
 ---
 # Instacart Basket Analysis
 
-[Github Repository](https://github.com/kirstencurrie/cf_instacart)
+### [Github Repository](https://github.com/kirstencurrie/cf_instacart)
 
 ## Intro
 
