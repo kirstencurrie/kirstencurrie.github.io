@@ -8,8 +8,6 @@ Hi, I'm Kirsten. I'm a data analyst with a background in apparel material develo
 
 **I’ve always been fascinated by the stories data can tell**. Whether it’s tracking my own spending habits (I’ve logged every expense for the past five years!) or analyzing my health data—like calories, macros, and micronutrients—I love finding hidden patterns and using them to make sound decisions. That same curiosity drives me professionally as I dig into data to **reveal trends, solve problems, and create actionable strategies**.
 
-Some of my proudest accomplishments include reducing seasonal material costs by analyzing product forecasts, creating visual dashboards to guide stakeholders in apparel line planning, and even conducting personal research on real estate trends using Python and machine learning.
-
 If you're curious about how data can transform business strategy or want to see some of my work, check out some of my latest projects below. I’d love to connect and help uncover the hidden gems in your data!
 
 ## Education
