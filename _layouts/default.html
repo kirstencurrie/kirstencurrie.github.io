@@ -13,11 +13,13 @@
     padding: 10px 20px; /* Add padding around navbar */
     border-bottom: 1px solid #ddd; /* Divider line */
     padding-bottom: 10px; /* Adds space below the navigation bar */
-    position: sticky;
+    position: fixed; /* Fixes navbar at the top */
     top: 0;
-    z-index: 1000;
+    z-index: 1000; /* Ensures it stays above other elements */
   }
-
+body {
+  margin-top: 60px; /* Adds space below the fixed navbar to prevent overlap with content */
+}
  .navbar-left {
     margin-right: 30px; /* Space between "Kirsten's Homepage" and nav links */
     font-weight: bold;
@@ -89,9 +91,6 @@
 
   .contact-info a:hover {
     text-decoration: underline;
-  }
-    body {
-    margin-top: 20px; /* Adds space between the navbar and content */
   }
 </style>
 
