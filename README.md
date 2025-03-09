@@ -15,7 +15,8 @@ If you're curious about how data can transform business strategy or want to see 
 - B.S., Apparel & Textile Design | University of Idaho
 
 ## Work Experience
-<a href="https://kirstencurrie.github.io/assets/img/Currie_Kirsten_Resume.pdf" target="_blank">Resume</a>
+
+### <a href="https://kirstencurrie.github.io/assets/img/Currie_Kirsten_Resume.pdf" target="_blank">Resume</a>
 
 
 ## Projects
