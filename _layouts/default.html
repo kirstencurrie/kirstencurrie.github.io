@@ -5,27 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-  /* Navigation Bar */  
+/* Navigation Bar */
 .navbar {
-  display: flex;
-  justify-content: flex-start; /* Align items to the left */
-  align-items: center; /* Vertically center items */
-  padding: 10px 20px; /* Add padding around navbar */
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%; /* Full width */
-  background-color: #FFFFFF; /* White background */
-  border-bottom: 1px solid #ddd; /* Divider line */
-  z-index: 1000;
+display: flex;
+justify-content: left; /* Center-align the container */
+align-items: left;
+padding: 10px 20px;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+width: 100%; /* Full width */
+background-color: #FFFFFF; /* White background */
+border-bottom: 1px solid #ddd; /* Divider line */
+z-index: 1000;
 }
-  .navbar-content {
-  display: flex;
-  justify-content: space-between; /* Space between left and right sections */
-  align-items: center; /* Vertically align items */
-  margin-left: 20px; /* Align dynamically with profile section */
-  width: calc(100% - 40px); /* Adjust width dynamically while keeping margins consistent */
+.navbar .container {
+display: flex;
+justify-content: space-between; /* Space between left and right sections */
+align-items: center; /* Vertically align items */
+max-width: 960px; /* Adjust to match your profile section's width */
+width: 100%; /* Ensure it spans full width within max-width */
 }
 body {
   padding-top: 60px; /* Adjust based on your navbar height */
