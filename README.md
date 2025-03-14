@@ -38,4 +38,12 @@ What property features drive property values? Is it acreage? Proximity to school
 
 Customer segmentation is crucial in better understanding purchasing behaviors and how to anticipate customer demand. This study evaluates different ways of grouping Instacart customer profiles to uncover interesting trends and unlock different marketing or ad campaign potentials. For example, have you considered the buying habits of 3am customers? Meet Insomniac Shoppers. Read more about how aggregation techniques in Python can help unlock hidden customer segmentations.
 
+<br>
 
+---
+
+![Photo of movies from a movie rental store on shelf](assets/img/rockbuster_cover.jpg)
+
+### [Rockbuster Stealth Movie Rental Analysis](project3.md)
+
+A movie rental business hopes to break out of the dark ages into the movie streaming business. Board members at a fictional company (Rockbuster Steath) hope a data analyst can sift through their data tables to decipher what the top performing, movie genres, and highest paying customers are. Once all of this insightful data is gleaned, what will their first foray into digitization be??
