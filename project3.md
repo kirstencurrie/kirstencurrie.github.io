@@ -25,7 +25,7 @@ Rockbuster Stealth is a video rental company (fictional) that would like to ente
 
 ## Key Business Questions
 
-2023 Digital video rentals was a $4.3 billion dollar market value1 in the United States alone ([stat](https://www.statista.com/statistics/690368/movie-rental-revenue/)) To stay relevant with market demands, Rockbuster Stealth will curate a number of its licensed movie titles for online digital rental. The following business questions will target which movies and geographical markets to approach first.
+2023 Digital video rentals was a $4.3 billion dollar market value in the United States alone ([stat](https://www.statista.com/statistics/690368/movie-rental-revenue/)) To stay relevant with market demands, Rockbuster Stealth will curate a number of its licensed movie titles for online digital rental. The following business questions will target which movies and geographical markets to approach first.
 
 - What was the average rental duration for all videos? 
 - Which movies contributed the most/least to revenue gain? 
