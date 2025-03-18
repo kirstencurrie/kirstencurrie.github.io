@@ -9,7 +9,7 @@ If you're curious about how data can transform business strategy or want to see 
 <br>
 
 ## Education
-- Certificate of Data Analytics | CareerFoundry (_2025_)								       		
+- Certificate of Data Analytics | CareerFoundry (_Spring 2025_)								       		
 - B.S., Apparel & Textile Design | University of Idaho
 
 <br>
