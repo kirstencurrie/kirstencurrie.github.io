@@ -47,3 +47,15 @@ Customer segmentation is crucial in better understanding purchasing behaviors an
 ### [Rockbuster Stealth Movie Rental Analysis](project3.md)
 
 A movie rental business hopes to break out of the dark ages into the movie streaming business. Board members at a fictional company (Rockbuster Steath) hope a data analyst can sift through their data tables to decipher what the top performing, movie genres, and highest paying customers are. Once all of this insightful data is gleaned, what will their first foray into digitization be??
+
+
+---
+
+![Photos of beautiful lake and European architecture during the winter](assets/img/climatewins_cover.jpg)
+
+### [ClimateWins Weather Data Machine Learning Analysis](project4.md)
+
+Have you ever wondered which metrics are most effective for predicting whether your city will experience fair or poor weather conditions? Should you focus on minimum temperatures, maximum temperatures, wind velocity, or the number of sunny days? By leveraging both supervised and unsupervised machine learning techniques, this project explores the most critical features to measure and identifies the models best suited to deliver accurate and efficient weather predictions. This study envisions how a fictional nonprofit organization could integrate machine learning strategies into their weather forecasting efforts, providing actionable insights for improved decision-making.
+
+<br>
+
