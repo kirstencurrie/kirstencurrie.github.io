@@ -22,13 +22,13 @@ The format of this report is provided into project reports as follows.
 
 ## Supervised Learning & Interim Report
 
-[![Climatewins Interim Machine Learning Report](assets/img/climatewins_interim-report.jpg)](assets/img/ClimateWins_Final-Report.pdf)
+[![Climatewins Interim Machine Learning Report](assets/img/climatewins_interim-report.jpg)](assets/img/ClimateWins_Interim-Report.pdf)
 
 <br>
 
 ## Unsupervised Learning & Final Report
 
-[![Climatewins Final Machine Learning Report](assets/img/climatewins_final-report.jpg)](assets/img/ClimateWins_Interim-Report.pdf)
+[![Climatewins Final Machine Learning Report](assets/img/climatewins_final-report.jpg)](assets/img/ClimateWins_Final-Report.pdf)
 
 <br>
 
