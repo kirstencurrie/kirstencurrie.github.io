@@ -23,7 +23,7 @@ The most useful information was land classification (residential under 10 acres,
 
 
 ![Interactive Tableau layer map that shows distribution of Cary, NC property types](assets/img/cary_map.png)
-***FIG. A:***  *Interactive Tableau layer map that shows distribution of Cary, NC property types.*
+***FIG. A:***  *[Interactive Tableau layer map](https://public.tableau.com/app/profile/kirsten.currie/viz/CaryNC_PropertyValueAnalysis/CaryProperties?publish=yes) that shows distribution of Cary, NC property types.*
 
 
 <br>
