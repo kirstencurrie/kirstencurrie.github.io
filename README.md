@@ -16,7 +16,7 @@ If you're curious about how data can transform business strategy or want to see 
 
 ## Work Experience
 
-### <a href="https://kirstencurrie.github.io/assets/img/Currie_Kirsten_Resume.pdf" target="_blank">Resume</a>
+### <a href="https://kirstencurrie.github.io/assets/img//KirstenCurrie_Resume.pdf" target="_blank">Resume</a>
 
 <br>
 
