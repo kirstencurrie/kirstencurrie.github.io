@@ -12,9 +12,23 @@ title: Your Project Title
 
 This was a theoretical Instacart project meant to analyze product sales via Products, Orders, and Customer datasets. 
 
-Original data was accessed by Instacart and actual customer names & other variables such as prices had been imputed to protect information.
+Original data was accessed by Instacart and actual customer names & other variables such as prices have been imputed to protect information and creating a use case for studying consumer behaviors & shopping patterns.
 
 Leveraging Python using Jupyter Lab Notebooks, the Instacart data was cleaned, wrangled, and prepared for analysis. One of the datasets contained over 32 million rows of data, which in turn required troubleshooting techniques in order to run the study smoothly. In the end, sampling 20% of the data was selected in order to conduct the analysis.
+
+<br>
+
+## Key Business Questions
+
+Business stakeholders are focused on understanding the diversity of their customers and their buying habits. Recognizing that a one-size-fits-all approach won’t work, they’re exploring targeted marketing strategies. They want to tailor campaigns to different customer segments and measure their impact on sales. This analysis was intended to help shape this strategy, ensuring Instacart reaches the right customers with the right products. Stakeholders are looking to answer key questions like:
+
+-  Are there particular times of day when people spend the most money?
+-  Are there certain products that are more popular than others?
+-  Are there differences in ordering habits based on loyalty status?
+-  Are there differences in ordering habits based on region?
+-  What is the distribution among users as to how often they return?
+
+<br>
 
 
 ![Frequency of purchases made by age group](assets/img/ic_age-income.png)
