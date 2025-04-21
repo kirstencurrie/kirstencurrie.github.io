@@ -70,12 +70,12 @@ With the help of data aggregation (calculating average, min, max, etc) and colum
 
 ## Insights & Recommendations
 
-###1.  What are the busiest days of the week and hours of the day?
+### 1.  What are the busiest days of the week and hours of the day?
 
 - Saturday and Sunday are the busiest day  of the week. Tuesday and Wednesday are the least bust days of the week. Most orders are between 9am and 4pm with a peak at 10am to 11am.
 
 ***Recommendations***
-- As the mid-week are the least busy days, explore marketing campaigns (promotions or sales) targeting those days to drive higher sales during those times. Further analysis could explore category performance day and time of week.
+- As mid-week represents the least busy days for purchases, could we explore marketing campaigns (promotions or sales) targeting those days to drive higher sales during those times? 
 
 ![Customer purchase volume by day of week](assets/img/ic_orders_day-of-week.png)
 ***FIG. F:*** *Customer purchasing volume by day of week*
@@ -83,7 +83,7 @@ With the help of data aggregation (calculating average, min, max, etc) and colum
 <br>
 
 
-###2. Are there certain products that are more popular than others?
+### 2. Are there certain products that are more popular than others?
 
 - Produce, Dairy/eggs, snacks, and beverages are the biggest sellers by department.
 
