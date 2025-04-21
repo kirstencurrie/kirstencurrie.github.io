@@ -77,6 +77,12 @@ With the help of data aggregation (calculating average, min, max, etc) and colum
 ***Recommendations***
 - As the mid-week are the least busy days, explore marketing campaigns (promotions or sales) targeting those days to drive higher sales during those times. Further analysis could explore category performance day and time of week.
 
+![Customer purchase volume by day of week](assets/img/ic_orders_day-of-week.png)
+***FIG. F:*** *Customer purchasing volume by day of week*
+
+<br>
+
+
 ###2. Are there certain products that are more popular than others?
 
 - Produce, Dairy/eggs, snacks, and beverages are the biggest sellers by department.
@@ -84,6 +90,11 @@ With the help of data aggregation (calculating average, min, max, etc) and colum
 ***Recommendations***
 
 - Fresh products & key kitchen staples appear to be high in demand for shoppers. Could a campaign strategy be to suggest pairings of the most popular items with the least in order to help drive underperforming category sales? For higher performing categories, should customers be rewarded for their return purchases or be upsold with subcription services?
+
+![Bar chart of top performing product categories](assets/img/ic_top-categories.png)
+***FIG. G:*** *Sales Volume by product category.*
+
+<br>
 
 ## Conclusion
 
@@ -93,7 +104,7 @@ The ability to create groups and join data within Python provides an infinite po
 Further studies could provide analysis into regional sales and how exactly timeliness and customer profile types could impact sales there.
 
 ![Grouped bar chart comparing customer loyalty shopping habits by product type](assets/img/ic_customer-segments.png)
-***FIG. F:***  *Customers are divided into loyalty segments (New, Regular, and Loyal) then categorized by their shopping preferences. Produce is a clear winner.*
+***FIG. H:***  *Customers are divided into loyalty segments (New, Regular, and Loyal) then categorized by their shopping preferences. Produce is a clear winner.*
 
 <br>
 
