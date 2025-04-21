@@ -6,6 +6,9 @@ title: Your Project Title
 
 ### [Github Repository](https://github.com/kirstencurrie/cf_instacart)
 
+### [View Live PowerBI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYWRlNDZiNmItMjBiMS00N2ZkLTlmZGEtNThlMGNjYjFiOTY4IiwidCI6ImM0ZWNkNjdhLWUxNDMtNDMyZS1hOTllLWZjNTYwZWM3MzQ2MCIsImMiOjF9)
+
+
 <br>
 
 ## Intro
@@ -31,16 +34,19 @@ Business stakeholders are focused on understanding the diversity of their custom
 <br>
 
 
-![Frequency of purchases made by age group](assets/img/ic_age-income.png)
-***FIG. A:***  *A frequency chart illustrates which age groups spend the most money; a clear increase is seen at the age 40 mark*
-
-<br>
-
 ## Data Aggregation
 
 With millions of data insights at hand, you can imagine the challenge of being able to glean insights without the ability to group the variables into more meaningful categories.
 
 With the help of data aggregation (calculating average, min, max, etc) and column flag creation (creating new data variables that consolidated age groups, customer loyalty, shoppers by time of day, etc), capturing a sense of which products customers were drawn to became much easier, and a narrative was much simpler to form.
+
+<br>
+
+
+![Frequency of purchases made by age group](assets/img/ic_age-income.png)
+***FIG. A:***  *A frequency chart illustrates which age groups spend the most money; the steep increase of age at 40 could indicate issues with data imputation, and could be investigated further.*
+
+<br>
 
 ![Screenshot of Jupyter notebook showing creation of customer flags](assets/img/ic_customer-flags.png)
 ***FIG. B:***  *Screenshot of a Jupyter Notebook script detaling the creation of age group by customer loyalty crosstabs*
