@@ -74,7 +74,7 @@ With the help of data aggregation (calculating average, min, max, etc) and colum
 
 - Saturday and Sunday are the busiest day  of the week. Tuesday and Wednesday are the least bust days of the week. Most orders are between 9am and 4pm with a peak at 10am to 11am.
 
-***Recommendations***
+  ### Recommendations
 - As mid-week represents the least busy days for purchases, could we explore marketing campaigns (promotions or sales) targeting those days to drive higher sales during those times? 
 
 ![Customer purchase volume by day of week](assets/img/ic_orders_day-of-week.png)
@@ -87,7 +87,7 @@ With the help of data aggregation (calculating average, min, max, etc) and colum
 
 - Produce, Dairy/eggs, snacks, and beverages are the biggest sellers by department.
 
-***Recommendations***
+  ### Recommendations
 
 - Fresh products & key kitchen staples appear to be high in demand for shoppers. Could a campaign strategy be to suggest pairings of the most popular items with the least in order to help drive underperforming category sales? For higher performing categories, should customers be rewarded for their return purchases or be upsold with subcription services?
 
