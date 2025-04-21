@@ -68,6 +68,23 @@ With the help of data aggregation (calculating average, min, max, etc) and colum
 
 <br>
 
+## Insights & Recommendations
+
+###1.  What are the busiest days of the week and hours of the day?
+
+- Saturday and Sunday are the busiest day  of the week. Tuesday and Wednesday are the least bust days of the week. Most orders are between 9am and 4pm with a peak at 10am to 11am.
+
+***Recommendations***
+- As the mid-week are the least busy days, explore marketing campaigns (promotions or sales) targeting those days to drive higher sales during those times. Further analysis could explore category performance day and time of week.
+
+###2. Are there certain products that are more popular than others?
+
+- Produce, Dairy/eggs, snacks, and beverages are the biggest sellers by department.
+
+***Recommendations***
+
+- Fresh products & key kitchen staples appear to be high in demand for shoppers. Could a campaign strategy be to suggest pairings of the most popular items with the least in order to help drive underperforming category sales? For higher performing categories, should customers be rewarded for their return purchases or be upsold with subcription services?
+
 ## Conclusion
 
 The ability to create groups and join data within Python provides an infinite possiblity for exploring relationships within the data. Insights from this study was able to highlight how categories like bulk food, pet products, and alcohol were struggling and require new marketing strategies to bring them back to life. Frequency checks showed stakeholders how timeliness matters and how weekends were essential for their consumer.
