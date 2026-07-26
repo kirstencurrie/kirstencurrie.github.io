@@ -4,7 +4,7 @@ Hi, I’m Kirsten. I’m a data analyst and AI automation enthusiast with a back
 
 Today, I specialize in transforming complex business questions into actionable insights through data analysis, automation, and emerging AI technologies. I enjoy building self-service tools, streamlining workflows, and **exploring how AI can accelerate problem-solving** and make teams more effective. My background in product development gives me a unique perspective: I understand both the human side of business decisions and the technical tools needed to support them.
 
-I’ve always been fascinated by the stories hidden within data. Whether it’s analyzing my personal spending patterns (I’ve tracked every expense for over six years!), exploring health and fitness data, or experimenting with generative AI models like Stable Diffusion, I’m constantly looking for ways technology can reveal patterns, create efficiencies, and inspire new ideas.
+I’ve always been fascinated by the stories hidden within data. Whether it’s analyzing my personal spending patterns (I’ve tracked every expense for over six years!), exploring health and fitness data, or **experimenting with generative AI models** like Stable Diffusion, I’m constantly looking for ways technology can reveal patterns, create efficiencies, and inspire new ideas.
 
 My current projects explore the intersection of analytics, automation, and artificial intelligence—from business intelligence dashboards and data analysis to AI-assisted workflows and creative AI applications.
 
