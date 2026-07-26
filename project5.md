@@ -4,7 +4,7 @@ title: Your Project Title
 ---
 # How to Train Stable Diffusion to Sketch in Your Style
 
-### [Github Repository](https://github.com/kirstencurrie/climatewins)
+[![Stable Diffusion AI Sketch Training](assets/img/stable_diffusion.jpg)](assets/img/stable_diffusion.jpg))
 
 <br>
 
