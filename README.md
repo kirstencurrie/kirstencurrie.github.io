@@ -14,6 +14,7 @@ If you’re interested in how data and AI can transform the way we work, feel fr
 <br>
 
 ## Education
+- Associate AI Engineer for Developers (in progress) | DataCamp (_Fall 2026_)
 - Certificate of Data Analytics | CareerFoundry (_Spring 2025_)								       		
 - B.S., Apparel & Textile Design | University of Idaho
 
