@@ -1,10 +1,15 @@
 ## About
 
-Hi, I'm Kirsten. I'm a data analyst with a background in apparel material development, having worked for industry leaders like Adidas and Nordstrom. During my career, I saw firsthand how **critical data is in making smart business decisions**—whether it’s optimizing supply chains, segmenting customers, or validating products. That realization inspired me to pivot into data analytics, combining my industry expertise with technical skills to help businesses uncover insights and drive innovation.
+Hi, I’m Kirsten. I’m a data analyst and AI automation enthusiast with a background in apparel product development, having worked with industry leaders like Adidas and Nordstrom. My career began at the intersection of creativity, technology, and business—developing products, analyzing performance, and collaborating across global teams. That experience showed me the power of data to drive smarter decisions and ultimately inspired my transition into analytics.
 
-**I’ve always been fascinated by the stories data can tell**. Whether it’s tracking my own spending habits (I’ve logged every expense for the past five years!) or analyzing my health data—like calories, macros, and micronutrients—I love finding hidden patterns and using them to make sound decisions. That same curiosity drives me professionally as I dig into data to **reveal trends, solve problems, and create actionable strategies**.
+Today, I specialize in transforming complex business questions into actionable insights through data analysis, automation, and emerging AI technologies. I enjoy building self-service tools, streamlining workflows, and exploring how AI can accelerate problem-solving and make teams more effective. My background in product development gives me a unique perspective: I understand both the human side of business decisions and the technical tools needed to support them.
 
-If you're curious about how data can transform business strategy or want to see some of my work, check out some of my latest projects below. I’d love to connect and help uncover the hidden gems in your data!
+I’ve always been fascinated by the stories hidden within data. Whether it’s analyzing my personal spending patterns (I’ve tracked every expense for over six years!), exploring health and fitness data, or experimenting with generative AI models like Stable Diffusion, I’m constantly looking for ways technology can reveal patterns, create efficiencies, and inspire new ideas.
+
+My current projects explore the intersection of analytics, automation, and artificial intelligence—from business intelligence dashboards and data analysis to AI-assisted workflows and creative AI applications.
+
+If you’re interested in how data and AI can transform the way we work, feel free to explore my projects or connect with me. I’m always excited to learn, build, and uncover new possibilities with technology.
+
 
 <br>
 
