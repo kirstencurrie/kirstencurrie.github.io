@@ -1,6 +1,6 @@
 ## About
 
-Hi, I’m Kirsten. I’m a data analyst and AI automation enthusiast with a background in apparel product development, having worked with industry leaders like Adidas and Nordstrom. My career began at the intersection of creativity, technology, and business—developing products, analyzing performance, and collaborating across global teams. That experience showed me the **power of data to drive smarter decisions** and ultimately inspired my transition into analytics.
+Hi, I’m Kirsten. I’m a **data analyst** and **AI automation** enthusiast with a background in apparel product development, having worked with industry leaders like Adidas and Nordstrom. My career began at the intersection of creativity, technology, and business—developing products, analyzing performance, and collaborating across global teams. That experience showed me the **power of data to drive smarter decisions** and ultimately inspired my transition into analytics.
 
 Today, I specialize in transforming complex business questions into actionable insights through data analysis, automation, and emerging AI technologies. I enjoy building self-service tools, streamlining workflows, and **exploring how AI can accelerate problem-solving** and make teams more effective. My background in product development gives me a unique perspective: I understand both the human side of business decisions and the technical tools needed to support them.
 
