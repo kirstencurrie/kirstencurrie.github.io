@@ -22,7 +22,7 @@ If you’re interested in how data and AI can transform the way we work, feel fr
 
 ## Work Experience
 
-### <a href="https://kirstencurrie.github.io/assets/img/KirstenCurrie_DataAnalyst.pdf" target="_blank">Resume</a>
+### <a href="https://kirstencurrie.github.io/assets/img/KirstenCurrie_DataAnalyst_AIEngineer.pdf" target="_blank">Resume</a>
 
 <br>
 
