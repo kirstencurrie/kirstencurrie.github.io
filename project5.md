@@ -16,23 +16,21 @@ As we tinker with just the right natural language expressions to get our astrona
 
 My personal interest stems from the desire to more quickly produce designs — specifically related to clothing. Many times I have found myself staring blankly at my new tablet sketch page trying to make the leap from getting what’s in my mind’s eye to materialize in sketch form.
 
-It begged the question, how might we work with AI to generate work in a style matching our own?
+It begged the question, **how might we work with AI to generate work in a style matching our own?**
 
 <br>
 
-I’d played around a bit with Open.Ai’s DallE but still found that more for sensational art rather than for iterative creation, so I decided to take a stab at using Stable Diffusion. You can quickly generate imagery using their online tool DreamStudio, but if you want more control over the art, you should install it onto your computer.
+I’d played around a bit with Open.Ai’s [DallE](https://openai.com/index/dall-e-2/) but still found that more for sensational art rather than for iterative creation, so I decided to take a stab at using [Stable Diffusion](https://stability.ai/news-updates/stable-diffusion-public-release). You can quickly generate imagery using their online tool DreamStudio(now [BrandStudio](https://auth.stability.ai/u/login/identifier?state=hKFo2SBYYUtVYWZnSUllWFZBX3QxQ0pIU1N1b3BmQThqRm9HeKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIHdRYlJsenNvdWtVa2o3TE1FcmVpUGVqSUdhT2h3NEcwo2NpZNkgWmJCQjEyazJIQjc4S2ZNQjljZ3ZLT1JxN251ajdxNEk)), but if you want more control over the art, you should install it onto your computer.
 
-For the brevity of this article, I won’t be going into the exact steps I took for installing and running the program, but you can reference the step-by-step tutorial that I followed here. Stable Diffusion updates quite frequently, so some of the steps may have changed by the time you watch this.
+For the brevity of this article, I won’t be going into the exact steps I took for installing and running the program, but you can reference the step-by-step tutorial that I followed [here](https://www.youtube.com/watch?v=vg8-NSbaWZI&t=19s). Stable Diffusion updates quite frequently, so some of the steps may have changed by the time you watch this.
 
-[![Climatewins Interim Machine Learning Report](assets/img/climatewins_interim-report.jpg)](assets/img/ClimateWins_Interim-Report.pdf)
 
 <br>
 
 ## Image-to-Image Function
 
 
-[![Climatewins Final Machine Learning Report](assets/img/climatewins_final-report.jpg)](assets/img/ClimateWins_Final-Report.pdf)
-
+![Stable Diffusion AI Sketch Training](assets/img/stable_diffusion_2.png)
 
 Once you’ve installed the program, there are quite a few different features you can mess around with.
 
@@ -42,11 +40,11 @@ For funsies, I first uploaded a personal sketch and then asked it to generate im
 
 For reference, here is an original George Barbier illustration:
 
-[![Climatewins Final Machine Learning Report](assets/img/climatewins_final-report.jpg)](assets/img/ClimateWins_Final-Report.pdf)
+![Stable Diffusion AI Sketch Training](assets/img/stable_diffusion_3.png)
 
 And here’s my sketch (left) with Stable Diffusion generated images in George Barbier style (4 images on right):
 
-[![Climatewins Final Machine Learning Report](assets/img/climatewins_final-report.jpg)](assets/img/ClimateWins_Final-Report.pdf)
+![Stable Diffusion AI Sketch Training](assets/img/stable_diffusion_4.png)
 
 As you can see the images definitely captured both the idea of the woman wearing sunglasses and a peach-colored tulle dress — and George Barbier’s soft yet flamboyant aesthetic.
 
@@ -56,7 +54,7 @@ As you can see the images definitely captured both the idea of the woman wearing
 
 I assume because there’s quite a bit of George Barbier work online and in the public domain, it’s likely easier for Stable Diffusion’s existing algorithm to understand what this might translate to from text to image, but if I were to ask it point blank to render an image in “Kirsten Currie” style, my results would likely be questionable.
 
-Luckily there’s a way to train a model to understand a specific style and I did so by using DreamBooth. The specific method for doing so can be found here by the same Vlogger (Entrepreneur) I referenced earlier. If GitHub, Python, RunPod, or Hugging Face sound foreign to you, you might be in for a bit of a learning curve (as was I). There are different ways to train a model, but I used this method because the results seemed the most accurate.
+Luckily there’s a way to train a model to understand a specific style and I did so by using DreamBooth. The specific method for doing so can be found [here](https://www.youtube.com/watch?v=dfMLrytpfAU&t=1235s) by the same Vlogger (Entrepreneur) I referenced earlier. If GitHub, Python, RunPod, or Hugging Face sound foreign to you, you might be in for a bit of a learning curve (as was I). There are different ways to train a model, but I used this method because the results seemed the most accurate.
 
 Again, not going to get into the weeds in this article, but the steps I took were roughly as follows.
 
@@ -64,11 +62,11 @@ Again, not going to get into the weeds in this article, but the steps I took wer
 
 ## Train Model with Existing Style of Sketches
 
-[![Climatewins Final Machine Learning Report](assets/img/climatewins_final-report.jpg)](assets/img/ClimateWins_Final-Report.pdf)
+![Stable Diffusion AI Sketch Training](assets/img/stable_diffusion_5.png)
 
-The image here is a screenshot of the interface for Joe Penna’s Dreambooth-Stable-Diffusion repository on Jupyter Notebook. It walks you through a series of steps to fine-tune a model based on images you upload.
+The image here is a screenshot of the interface for Joe Penna’s Dreambooth-Stable-Diffusion [repository](https://github.com/JoePenna/Dreambooth-Stable-Diffusion/) on Jupyter Notebook. It walks you through a series of steps to fine-tune a model based on images you upload.
 
-[![Climatewins Final Machine Learning Report](assets/img/climatewins_final-report.jpg)](assets/img/ClimateWins_Final-Report.pdf)
+![Stable Diffusion AI Sketch Training](assets/img/stable_diffusion_6.png)
 
 I input 12–15 of my sketches like the above to train the model on my style. They recommend anywhere from 10–30. Initially, I had tried around 50 but it really slowed things down and sort of crashed on me (but that was most likely solely user error…).
 
@@ -82,13 +80,13 @@ With my model created and downloaded, I relaunched Stable Diffusion and saved my
 
 Because I wanted to test out the different sample methods and sampling sets, I came up with a text prompt to use multiple times in order to evaluate what was working/not working throughout my iterations:
 
-[![Climatewins Final Machine Learning Report](assets/img/climatewins_final-report.jpg)](assets/img/ClimateWins_Final-Report.pdf)
+![Stable Diffusion AI Sketch Training](assets/img/stable_diffusion_7.png)
 
 Yes, that’s right — glittery pale purple demi cup bra and thong. Sorry, not sorry.
 
 Anyhow as you can see, my token (ksketch) and style were input at the end of the expression. Placing a phrase in parentheses is supposed to help create more of an emphasis on that token when generating the image.
 
-[![Climatewins Final Machine Learning Report](assets/img/climatewins_final-report.jpg)](assets/img/ClimateWins_Final-Report.pdf)
+![Stable Diffusion AI Sketch Training](assets/img/stable_diffusion_8.png)
 
 
 As of writing this article, there are 13 different sampling methods that Stable Diffusion allows you to use for image generation. I am not 100% sure how each of them works, but for this trial, I experimented with each one at different sampling steps— 20 and 50 steps respectively (you can go as high as 150 or as low as 1; their standard setting is 20 steps). Some methods tended to look either more or less detailed and/or “real life” than others.
@@ -103,7 +101,7 @@ This meant I needed to comb through the different sampling methods to determine 
 
 Please note that there are probably more ways to fine-tune than what was done in this exercise. I continued to use the same trained model, for example, but in theory, I could have trained a different model using more/other sketches for potentially better results. For now, I just wanted to see how accurate I could get by using existing tools within Stable Diffusion on the images already trained.
 
-[![Climatewins Final Machine Learning Report](assets/img/climatewins_final-report.jpg)](assets/img/ClimateWins_Final-Report.pdf)
+![Stable Diffusion AI Sketch Training](assets/img/stable_diffusion_9.png)
 
 
 The first thing I noted was that it did render the images in flat sketch form — no person wearing the clothes. This was the first minor success as my original sketches were all flats.
@@ -114,28 +112,27 @@ After this, I decided to add more emphasis to my token by including an extra set
 
 Press enter or click to view image in full size
 
-[![Climatewins Final Machine Learning Report](assets/img/climatewins_final-report.jpg)](assets/img/ClimateWins_Final-Report.pdf)
+![Stable Diffusion AI Sketch Training](assets/img/stable_diffusion_10.png)
 
-[![Climatewins Final Machine Learning Report](assets/img/climatewins_final-report.jpg)](assets/img/ClimateWins_Final-Report.pdf)
+![Stable Diffusion AI Sketch Training](assets/img/stable_diffusion_11.png)
 
 
 On this next round, I felt that the DPM2 Karras (50 steps) was starting to feel a lot more similar to my original sketches. You can see some of the same patterns and strokes that I might have used. I will show more of a before and after comparison later.
 
 I then decided to bump up the emphasis once more with the third set of parentheses:
 
+![Stable Diffusion AI Sketch Training](assets/img/stable_diffusion_12.png)
 
-[![Climatewins Final Machine Learning Report](assets/img/climatewins_final-report.jpg)](assets/img/ClimateWins_Final-Report.pdf)
-
-[![Climatewins Final Machine Learning Report](assets/img/climatewins_final-report.jpg)](assets/img/ClimateWins_Final-Report.pdf)
+![Stable Diffusion AI Sketch Training](assets/img/stable_diffusion_13.png)
 
 Suddenly I felt as if the tool was over-extrapolating. The DDIM was adding texture in the background of the 20 steps and adding the form of a person in 50 steps. DPM2 Karras completely dropped the underwear in 50 steps. Maybe the extra token emphasis wasn’t necessary.
 
 Finally, I decided to drop all parentheses and test:
 
 
-[![Climatewins Final Machine Learning Report](assets/img/climatewins_final-report.jpg)](assets/img/ClimateWins_Final-Report.pdf)
+![Stable Diffusion AI Sketch Training](assets/img/stable_diffusion_14.png)
 
-[![Climatewins Final Machine Learning Report](assets/img/climatewins_final-report.jpg)](assets/img/ClimateWins_Final-Report.pdf)
+![Stable Diffusion AI Sketch Training](assets/img/stable_diffusion_15.png)
 
 Although quite nice, I don’t think this round truly replicated my personal style, except for maybe DPM2 Karras.
 
@@ -143,7 +140,7 @@ Although quite nice, I don’t think this round truly replicated my personal sty
 
 ## Comparison of AI-Generated to Human-Generated Sketches
 
-[![Climatewins Final Machine Learning Report](assets/img/climatewins_final-report.jpg)](assets/img/ClimateWins_Final-Report.pdf)
+![Stable Diffusion AI Sketch Training](assets/img/stable_diffusion_16.png)
 
 When comparing alongside each other, are you able to discern which is AI generated and which is human? If you look closely, you can probably distinguish that one thing is not like the other, but they ultimately aren’t so far apart.
 
