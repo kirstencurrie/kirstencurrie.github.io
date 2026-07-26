@@ -4,7 +4,7 @@ title: Your Project Title
 ---
 # How to Train Stable Diffusion to Sketch in Your Style
 
-![Stable Diffusion AI Sketch Training](assets/img/stable_diffusion.jpg)
+![Stable Diffusion AI Sketch Training](assets/img/stable_diffusion_1.jpg)
 
 <br>
 
