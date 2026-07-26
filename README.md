@@ -59,3 +59,12 @@ Have you ever wondered which metrics are most effective for predicting whether y
 
 <br>
 
+---
+
+![Human sketches and AI sketch mixed together](assets/img/stable_diffusion_16.png)
+
+### [How to Train AI on your Drawing Style using Stable Diffusion](project5.md)
+
+This article explores the process of fine-tuning an AI model using Stable Diffusion on a personal drawing style. The premise for this work was instigated by former experience in lingerie design and wanting to explore the overlap between signature design style and AI.
+
+<br>
