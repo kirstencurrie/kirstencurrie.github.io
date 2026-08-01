@@ -82,9 +82,8 @@ Because I wanted to test out the different sample methods and sampling sets, I c
 
 ![Stable Diffusion AI Sketch Training](assets/img/stable_diffusion_7.png)
 
-Yes, that’s right — glittery pale purple demi cup bra and thong. Sorry, not sorry.
 
-Anyhow as you can see, my token (ksketch) and style were input at the end of the expression. Placing a phrase in parentheses is supposed to help create more of an emphasis on that token when generating the image.
+As you can see, my token (ksketch) and style were input at the end of the expression. Placing a phrase in parentheses is supposed to help create more of an emphasis on that token when generating the image.
 
 ![Stable Diffusion AI Sketch Training](assets/img/stable_diffusion_8.png)
 
